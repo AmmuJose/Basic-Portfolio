@@ -1,6 +1,6 @@
 
 body{
-	width: 100%;
+	width: 960px;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -97,7 +97,6 @@ textarea{
 footer{
 	background-color: #666;
 	color: #fff;
-	width: 1130px;
 	height: 40px;
 	text-align: center;
 	padding-top: 15px;
@@ -114,19 +113,15 @@ button{
 .container{
 	background-color: #ececec;
 	background-image: url("../images/background-img.png");
-	border-top: 1px solid #a9a9a9;
 	min-height: 300px;
 	height: auto;
 	overflow: auto;
 	width:960px;
-	border-bottom: 4px solid #4aaaa5;
-	padding: 30px 100px 30px 70px;
 }
 
 
 .header{
 	height: 62px;
-	width: 1130px;
 }
 
 .sidebar,
@@ -136,12 +131,11 @@ button{
 }
 
 .main{
-	width:640px;
-	/*min-height: 370px;*/
+	width:500px;
 	height: auto;
-	float: left;	
-	/*margin: 28px 10px 20px 70px;*/
-	padding: 30px 20px;
+	float: left;
+	padding: 30px;
+	margin: 30px 15px 30px 75px;
 }
 
 .sidebar{
@@ -149,7 +143,7 @@ button{
 	height: 114px;
 	float: right;
 	padding: 20px;
-	margin: 0px 20px 10px 26px;
+	margin: 30px 46px 10px 0px;
 }
 
 .sidebar a{
@@ -158,7 +152,7 @@ button{
 }
 
 .image{
-	width: 250px;
+	width: 228px;
 	height: 160px;
 	border: 1px solid #888;
 }
@@ -172,7 +166,7 @@ button{
 }
 
 .relative{
-	width: 250px;
+	width: 230px;
 	height: 160px;
 	position: relative;	
 	margin-bottom: 20px;
@@ -183,7 +177,7 @@ button{
 	position: absolute;
 	top:105px;
 	right: 0px;
-	width: 250px;
+	width: 230px;
 	height:30px;
 	background-color: #4aaaa5;
 	color: #fff;
